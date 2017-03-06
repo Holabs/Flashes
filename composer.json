@@ -1,0 +1,19 @@
+{
+    "name": "holabs/flashes",
+    "description": "Flash messages extension for Nette Framework",
+    "type": "library",
+    "license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+    "authors": [
+        {
+            "name": "Tomáš Holan",
+            "email": "mail@tomasholan.eu"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "holabs/ui": "~1.0",
+        "nette/application": "~2.4",
+        "nette/http": "~2.4",
+        "nette/utils": "~2.4"
+    }
+}

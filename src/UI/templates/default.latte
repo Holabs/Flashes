@@ -1,0 +1,4 @@
+<div n:foreach="$messages as $message" class="flash flash-{$message->getType()}">
+	{$message->getMessage()}.
+	<a href="{$message->getLink()->url}" n:if="$message->getLink()">{$message->getLink()->text}</a>
+</div>
