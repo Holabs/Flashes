@@ -15,5 +15,8 @@
         "nette/application": "~2.4",
         "nette/http": "~2.4",
         "nette/utils": "~2.4"
-    }
+    },
+	"autoload": {
+		"classmap": ["src"]
+	}
 }
